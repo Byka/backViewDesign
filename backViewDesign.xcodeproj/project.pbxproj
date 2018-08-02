@@ -14,6 +14,8 @@
 		576732F82113217000BC5A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576732F62113217000BC5A8E /* LaunchScreen.storyboard */; };
 		576733032113217000BC5A8E /* backViewDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576733022113217000BC5A8E /* backViewDesignTests.swift */; };
 		5767330E2113217000BC5A8E /* backViewDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767330D2113217000BC5A8E /* backViewDesignUITests.swift */; };
+		5767331C2113219900BC5A8E /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767331B2113219900BC5A8E /* DesignView.swift */; };
+		5767331E2113254900BC5A8E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767331D2113254900BC5A8E /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		576733092113217000BC5A8E /* backViewDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backViewDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5767330D2113217000BC5A8E /* backViewDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backViewDesignUITests.swift; sourceTree = "<group>"; };
 		5767330F2113217000BC5A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5767331B2113219900BC5A8E /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		5767331D2113254900BC5A8E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				576732ED2113216E00BC5A8E /* AppDelegate.swift */,
 				576732EF2113216E00BC5A8E /* ViewController.swift */,
+				5767331B2113219900BC5A8E /* DesignView.swift */,
+				5767331D2113254900BC5A8E /* CustomButton.swift */,
 				576732F12113216E00BC5A8E /* Main.storyboard */,
 				576732F42113217000BC5A8E /* Assets.xcassets */,
 				576732F62113217000BC5A8E /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5767331E2113254900BC5A8E /* CustomButton.swift in Sources */,
 				576732F02113216E00BC5A8E /* ViewController.swift in Sources */,
 				576732EE2113216E00BC5A8E /* AppDelegate.swift in Sources */,
+				5767331C2113219900BC5A8E /* DesignView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
